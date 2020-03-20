@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Install</title>
+
+
+    <div th:if="${name}">
+        <h3>Name</h3>
+        <h3 th:text="${name}"/>
+    </div>
+
+    <div th:if="${title}">
+        <h3>Title</h3>
+        <h3 th:text="${title}"/>
+    </div>
+
+    <div th:if="${pacakge}">
+        <h3>Package</h3>
+        <h3 th:text="${package}"/>
+    </div>
+
+
+    <a href="itms-services://?action=download-manifest&amp;url=https://irepo.sakku.cloud/${uuid}/plist">
+        Install application
+    </a>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+README.md
+target/
+!**/src/main/**
+!**/src/test/**
+ipa-dir/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.projectgi
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+mvnw
+mvnw.cmd
+.mvn/
+### VS Code ###
+.vscode/

@@ -1,0 +1,12 @@
+src
+ipa-dir
+.mvn
+.idea
+target/classes
+target/generated-sources
+target/generated-test-source
+target/maven-archiver
+target/maven-status
+target/test-classes
+Dockerfile
+*.md
